@@ -60,10 +60,10 @@ void main(){
       // addA11({...})  合并映射 给映射内增加属性 
       // containsValue  查看映射内的值 返回true/false
     //4.1 定义   映射(Maps)是无序的键值对:
-      Map person={
-        "name": "Bob",
-        "age":20
-      };
+      // Map person={
+      //   "name": "Bob",
+      //   "age":20
+      // };
 
       // var m=new Map();
       // m["name"]="李四";
@@ -75,10 +75,52 @@ void main(){
       // isEmpty  是否为空
       // isNotEmpty
 
-      print(person.keys);
-      print(person.keys.toList());
-      print(person.values.toList());
-      
+      // print(person.keys);
+      // print(person.keys.toList());
+      // print(person.values.toList());
+  
+  //5. forEach map where any every 循环
+
+    // List myList=["苹果","香蕉","西瓜"];
+
+    // for(var item in myList)
+    // {
+    //   print(item);
+    // }   
+
+    // myList.forEach((value){
+    //   print("$value");
+    // });
+
+    //  List myList=[1,3,4,5,7,8,9];
+    //  var newList=myList.map((value){
+    //   return value*2;
+    //  });
+    //  print(newList.toList());
+
+    // var newList=myList.where((value){
+    //   return value>5;
+    // });
+    // print(newList.toList());
+
+    // var f=myList.every((value){  //any只有条件满足 返回ture;every则是全部
+    //   return value>5;
+    // });
+    // print(f);
+
+    // var s=new Set();
+    // s.addAll([1,222,333]);
+    // s.forEach((value)=>print(value));
+
+    // Map person={
+    //   "name": "Bob",
+    //   "age":20
+    // };
+    // person.forEach((key,value){
+    //   print("$key---$value");
+
+    // });
+
 
 
   }
