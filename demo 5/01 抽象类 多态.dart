@@ -15,7 +15,7 @@
   
 //1. 案例: 定义一个Anima1 类要求它的子类必须包含eat方法
 
-abstract class Anial{
+abstract class Animal{
     eat();
     run();
 }
