@@ -16,59 +16,6 @@ import 'lib/mysql.dart';
 void main() {
   Mysql db1=new Mysql("XXXX");
   Mongodb db2=new Mongodb("XXXX");
-
   db1.add("data");
   db2.add("data");
-  Map _questionnairesData = {
-    "experiencerId":  "1",
-    "Q1": ["25-35"],
-    "Q2": ["2"],
-    "Q2a": ["B"],
-    "Q3": ["170", "80"],
-    "Q4": ["仰卧"],
-    "Q5a": [],
-    "Q5b": [],
-    "Q6": ["20:00"],
-    "Q7": ["D"],
-    "Q8": ["06:00"],
-    "Q9": ["4"],
-    "Q10a": ["D"],
-    "Q10b": ["D"],
-    "Q10c": ["D"],
-    "Q10d": ["D"],
-    "Q10e": ["D"],
-    "Q10f": ["D"],
-    "Q10g": ["D"],
-    "Q10h": ["D"],
-    "Q10i": ["D"],
-    "Q10j": ["D"],
-    "Q11": ["D"],
-    "Q12": ["D"],
-    "Q13": ["D"],
-    "Q14": ["D"],
-    "Q15": ["E"],
-    "Q16": ["E"],
-    "Q17": ["E"],
-    "Q18": ["A"],
-    "Q19": ["A"],
-    "Q20": ["E"],
-    "Q21": ["A"],
-    "Q22": ["A"],
-    "Q23": ["E"],
-    "Q24": ["E"],
-    "Q25": ["C"],
-    "Q26": ["D"],
-    "Q27": ["A", "B"],
-    "Q28": ["A", "B"],
-    "Q29": ["D"],
-    "Q30": ["D"],
-    "Q31": ["D"],
-    "Q32": ["A"],
-    "Q33": ["A"],
-    "Q34": ["A"],
-    "Q35": ["A"],
-    "Q36": ["A", "B", "C", "D", "E", "F", "G"]
-  };
-  String data = jsonEncode(_questionnairesData);
-    print(data);
 }
